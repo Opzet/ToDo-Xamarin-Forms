@@ -1,5 +1,11 @@
 # Overview
 
+To Do app with offline caching and sync to the cloud. The app is built with .NET MAUI, MVVM, and Entity Framework Core. 
+
+Work with SQLite database and sync data to the cloud using EntitySyncing. 
+
+Designed to work with different platforms such as iOS, Android, and Windows. 
+
 A small application to demo how to structure and architect a MAUI application. Alternatively, you can check out [Chick and Paddy MAUI sample app](https://github.com/tuyen-vuduc/chick-and-paddy-dotnet-maui).
 
 **NOTE:** 

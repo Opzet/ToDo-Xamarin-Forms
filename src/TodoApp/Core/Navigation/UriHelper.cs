@@ -26,7 +26,7 @@ namespace TodoApp
             {
                 var argsInJson = JsonSerializer.Serialize(args);
                 var argsQueryParameter =
-                    $"{DataQueryParameterName}=" + Uri.EscapeUriString(argsInJson);
+                    $"{DataQueryParameterName}=" + Uri.EscapeDataString(argsInJson);
                 uriBuilder.Query = string.IsNullOrWhiteSpace(uriBuilder.Query)
                     ? argsQueryParameter
                     : uriBuilder.Query + "&" + argsQueryParameter;
